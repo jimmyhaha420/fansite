@@ -4,26 +4,30 @@ body{
 .header{
   padding: 80px;
   text-align: center;
-  background: black;
-  color: white;
+  background: url(fansite.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 5px solid #997B66;
+  
 }
 .header h1{
-  font-size: 40px;
+  font-size: 60px;
+  color: #FFCB69
 }
 .navbar{
   overflow: hidden;
-  background-color: #333;
+  background-color: #D08C60;
 }
 .navbar a{
   float: left;
   display: block;
-  color: white;
+  color: #D9AE94;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
 }
 .navbar a:hover{
-  background-color: #ddd;
+  background-color: #FFCB69;
   color: black;
   border-radius: 5%;
 }
@@ -36,12 +40,14 @@ body{
 }
 .side{
   flex: 30%;
-  background-color: #f1f1f1; 
+  flex-direction: stretch;
+  background-color: #797D62; 
   padding: 20px;
 }
 .main{
   flex: 70%;
-  background-color: white;
+  flex-direction: stretch;
+  background-color: #9B9B7A;
   padding: 20px;
 }
 @media screen and (max-width: 700px){
